@@ -1,6 +1,6 @@
 # Estoa front-end challenge
 
-O objetivo do desafio é construir de personagens do [Star Wars](https://swapi.dev/api).
+O objetivo do desafio consumir a api: [Star Wars](https://swapi.dev/api).
 
 ## Algumas regras
 
