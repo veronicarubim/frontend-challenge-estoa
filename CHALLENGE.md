@@ -46,4 +46,3 @@ O objetivo do desafio consumir a api: [Star Wars](https://swapi.dev/api).
 - Aqui na **Estoa**, utilizamos **React** nos novos projetos. Caso você tenha familiaridade com ela, pode utilizá-la para resolver o desafio.
 - Estamos buscando um desenvolvedor front-end que saiba montar um _layout_ bonito e que também saiba programar em JavaScript, por isso aproveite a oportunidade para nos mostrar que você tem conhecimento nas duas áreas.
 - Não esqueça da documentação. Ou como nós iremos conseguir avaliar o trabalho se não for possível inicializar o projeto em nossas máquinas?
-- 
