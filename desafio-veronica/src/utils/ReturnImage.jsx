@@ -23,7 +23,7 @@ export const getImage = (name) => {
         case 'Anakin Skywalker' :
             return 'https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1xg7uvj_cb0fc121.jpeg?region=0%2C0%2C1200%2C675' ;
         case 'Wilhuff Tarkin' :
-            return 'https://lumiere-a.akamaihd.net/v1/images/tarkin-rogue-update_9c3ffe4a.jpeg?region=0%2C0%2C1200%2C502' ;
+            return 'https://lumiere-a.akamaihd.net/v1/images/aftermath-the-bad-batch-story-gallery-14_d05778d2.jpeg?region=149%2C0%2C962%2C542' ;
         case 'Chewbacca' :
             return 'https://lumiere-a.akamaihd.net/v1/images/5e94826f7d7499000120d564-image_f9b9d30e.jpeg?region=0,0,1536,864&width=1200' ;
         case 'Han Solo' :
