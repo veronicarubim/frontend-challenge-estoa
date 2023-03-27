@@ -30,6 +30,7 @@ const Character = ({character, species}) => {
     <Card bg="dark"
       style={{
         width: "18rem",
+        height: "24rem"
       }}>
         <Card.Header className="text-light bg-dark h3">{character.name}</Card.Header>
         <CardImg src={getImage(character.name? character.name : null)} alt="imagem"></CardImg>

@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
-import { Button, ButtonGroup, Card, Container } from 'react-bootstrap'
+import { Button, Card, Container } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
@@ -17,6 +17,8 @@ const DetailPage = () => {
 
   const context = useContext(GlobalContext)
   const {BASE_URL} = context
+
+  // Requisição de cada personagem e dentro do mesmo useEffect 
 
   useEffect(() => {
     axios.get(`${BASE_URL}/?search=${name}`)
@@ -44,7 +46,7 @@ const DetailPage = () => {
     <Container>
         <Header/>
         <Container
-          style={{marginTop: "5rem",
+          style={{marginTop: "6rem",
             marginBottom: "5rem"}}>
            <Card bg="dark">
             <Card.Header className="text-light bg-dark h3">{character.name}</Card.Header>
