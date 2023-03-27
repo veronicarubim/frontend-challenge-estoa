@@ -16,8 +16,8 @@ O objetivo dessa aplicação é consumir a API [Star Wars](https://swapi.dev/api
 
 Você deve instalar:
 
-- O [git] (https://git-scm.com/downloads) e terminal Bash;
-- Um editor de código, recomendo [VSCode] (https://code.visualstudio.com/download). 
+- O [git](https://git-scm.com/downloads) e terminal Bash;
+- Um editor de código, recomendo [VSCode](https://code.visualstudio.com/download). 
 
 Depois, clone este repositório no diretório desejado:
 
@@ -34,12 +34,12 @@ code .
 
 # Tecnologias utilizadas:
 
-ReactJS (javascript);
-Bootstrap. 
+- ReactJS (javascript)
+- Bootstrap. 
 
 # Pessoa desenvolvedora
 
 Autora: Verônica Rubim
 
-Qualquer dúvida, entre em contato pelo [Linkedin] (https://www.linkedin.com/in/veronica-rubim-0b0b87169/) ou por e-mail: veronica.rubim97@gmail.com.
+Qualquer dúvida, entre em contato pelo [Linkedin](https://www.linkedin.com/in/veronica-rubim-0b0b87169/) ou por e-mail: veronica.rubim97@gmail.com.
 
