@@ -4,6 +4,10 @@
 
 O objetivo dessa aplicação é consumir a API [Star Wars](https://swapi.dev/api) e construir um catálogo com os personagens dos filmes do episódio I ao VI. Cada personagem possui um botão "detalhes" que leva a uma página com mais informações e os filmes que possui participação. 
 
+# Deploy
+
+Clique [AQUI](https://estoa-veronica.vercel.app/) para ver o site!
+
 # Requisitos e funcionalidades:
 
 - [x] Exibe 82 personagens de Star Wars
