@@ -10,8 +10,7 @@ const Header = () => {
     const navigate = useNavigate()
     const location = useLocation()
     const handleFilm = (e) => {
-        setFilterFilm(e.target.value)
-      }
+        setFilterFilm(e.target.value)}
     const context = useContext(GlobalContext)
     const {films, filterFilm, setFilterFilm} = context    
     
@@ -42,13 +41,11 @@ const Header = () => {
                         color: "black",
                         display: "flex",
                         alignItems: "center"
-                    }}
-                    >
+                    }}>
                         <Form.Select
                             style={{ width: "18rem" }}
                             value={filterFilm}
-                            onChange={handleFilm}
-                        >
+                            onChange={handleFilm}>
                             <option value="">Select by movie...</option>
                             {films &&
                             films.map((film) => (
@@ -59,10 +56,7 @@ const Header = () => {
                         </Form.Select>
                     </Form.Group>
                 </div> 
-                
-                : null
-             }
-            
+                : null}
         </Navbar>
     
   )

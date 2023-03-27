@@ -35,9 +35,9 @@ const Character = ({character, species}) => {
         <Card.Header className="text-light bg-dark h3">{character.name}</Card.Header>
         <CardImg src={getImage(character.name? character.name : null)} alt="imagem"></CardImg>
         <Card.Body bg="dark">
-            <Card.Text className="text-light bg-dark">Espécie: {specie.name? specie.name : "Humano"}</Card.Text>
-            <Card.Text className="text-light bg-dark">Nascimento: {character.birth_year}</Card.Text>
-            <Button variant="btn btn-outline-warning" onClick={() => {goToDetail(navigate, character.name)}}>Detalhes</Button>
+            <Card.Text className="text-light bg-dark">Species: {specie.name? specie.name : "Human"}</Card.Text>
+            <Card.Text className="text-light bg-dark">Birth Year: {character.birth_year}</Card.Text>
+            <Button variant="btn btn-outline-warning" onClick={() => {goToDetail(navigate, character.name)}}>Details</Button>
         </Card.Body>
     </Card>
   )

@@ -14,7 +14,6 @@ const DetailPage = () => {
   const [films, setFilms] = useState([])
   const [homeWorld, setHomeWorld] = useState([])
   const {name} = useParams()
-
   const context = useContext(GlobalContext)
   const {BASE_URL} = context
 
