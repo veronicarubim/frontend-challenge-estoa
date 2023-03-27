@@ -1,42 +1,45 @@
-# Desafio front-end da Estoa
+# Desafio ESTOA - Resume
 
-Esse repositório é o nosso desafio para avaliar o quão bom desenvolvedor front-end você é.
+<img src="https://pbs.twimg.com/media/FsPa0URXwA4YYxq?format=jpg&name=4096x4096"/>
 
-Provavelmente você já está participando do nosso processo de contratação, mas se você caiu aqui por acaso, leia o documento até o final e caso haja interesse, você pode começar daqui mesmo.
+O objetivo dessa aplicação é consumir a API [Star Wars](https://swapi.dev/api) e construir um catálogo com os personagens dos filmes do episódio I ao VI. Cada personagem possui um botão "detalhes" que leva a uma página com mais informações e os filmes que possui participação. 
 
+# Requisitos e funcionalidades:
 
-## Sobre o desafio
+- [x] Exibe 82 personagens de Star Wars
+- [x] Página de Detalhes
+- [x] Filtro por participação em filmes
+- [x] Thumbnail em cada card
+- [x] Lista de características
 
-Esse é um desafio, não um teste ou uma prova de faculdade, portanto não há uma única resposta certa.
+# Para rodar esse projeto na sua máquina:
 
-Daremos a você alguns requisitos que devem ser cumpridos, e pelos quais você será avaliado, mas deixamos livre a escolha do método de solução.
+Você deve instalar:
 
-O que nós esperamos aprender de você com o desafio:
+- O [git] (https://git-scm.com/downloads) e terminal Bash;
+- Um editor de código, recomendo [VSCode] (https://code.visualstudio.com/download). 
 
-- Seu estilo de trabalho
-- Como você pensa e resolve problemas
-- Como você se comunica
+Depois, clone este repositório no diretório desejado:
 
-O que nós esperamos que você aprenda sobre a Estoa:
+```
+git clone <link>
 
-- Como nós trabalhamos como um time.
-- Tenha uma visão próxima dos desafios que enfrentamos no dia-a-dia.
+cd desafio-veronica
 
-## Próximos passos
+git checkout -b "example-branch"
 
-1. Faça um _fork_ desse repositório para sua conta pessoal.
-2. As instruções do desafio se encontram no arquivo [`CHALLENGE.md`](/CHALLENGE.md).
-2. Resolva o desafio da forma que você julgar mais adequada.
-3. Preferencialmente utilize uma _branch_ chamada `desafio` ou com o seu nome (`nome-sobrenome`) para o desenvolvimento. E submeta o _pull-request_ para essa mesma _branch_.
+code .
 
-## Considerações
+```
 
-- Nós não iremos limitar a sua escolha por ferramentas e bibliotecas, porém é de suma importância que use React.js, faça escolhas que sejam condizentes com o desafio apresentado. Para que utilizar uma bazuca para matar uma formiga?
-- Tente escrever o melhor código possível para que possamos avaliar o seu _pull-request_ com mais facilidade. E lembre-se: Você vai ter que explicar pessoalmente para nós depois.
-- Também leve em consideração que estamos availando como será o seu modo de trabalho no nosso dia a dia. Então, use as melhores práticas de semântica, estruturação, legibilidade e componentização.
+# Tecnologias utilizadas:
 
-## Dúvidas?
+ReactJS (javascript);
+Bootstrap. 
 
-Ficou com alguma dúvida sobre como irá funcionar o processo? Entre em contato que nós te ajudaremos com o processo.
+# Pessoa desenvolvedora
 
-**Boa sorte!**
+Autora: Verônica Rubim
+
+Qualquer dúvida, entre em contato pelo [Linkedin] (https://www.linkedin.com/in/veronica-rubim-0b0b87169/) ou por e-mail: veronica.rubim97@gmail.com.
+
